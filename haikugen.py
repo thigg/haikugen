@@ -61,7 +61,7 @@ def gethaiku():
 
 
 from telegram.ext import Updater
-updater = Updater(token='486810403:AAEijCpjNqrs76jnpR7LygSy3bVwQ8uDOHU')
+updater = Updater(token='')
 dispatcher = updater.dispatcher
 def start(bot, update):
    bot.send_message(chat_id=update.message.chat_id, text=gethaiku())
